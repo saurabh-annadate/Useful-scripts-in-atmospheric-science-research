@@ -3,7 +3,7 @@ import pandas as pd
 import glob
 import os
 
-path = '/media/vsinha/YASH THAKUR/ptrms clean/New folder/'  #path to the folder consisting daywise folders of the PICARRO data
+path = ''  #path to the folder consisting daywise folders of the PICARRO data
 arr = os.listdir(path)
 all_files = []                # list of all the data files need to merged
 for i in arr:
